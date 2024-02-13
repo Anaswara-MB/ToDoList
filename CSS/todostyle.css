@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px;
+}
+
+.custom-navbar {
+    background-color:  rgb(158, 151, 233);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    color:  rgb(102, 93, 200);
+    font-weight: bold;
+}
+#ToDoList{
+    font-weight: bolder;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  rgb(102, 93, 200);
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color:  rgb(102, 93, 200);
+}
+
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: #6163b2;
+    color: #343a40;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #7b78e1;
+    background: -webkit-linear-gradient(to right, #9f88f4, #a9b5f6);
+    background: linear-gradient(to right, #9e96c0, #9f96e3);
+}
+
+.head1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c7ccd1;
+}
+
+.head2{
+    color: #c7ccd1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: antiquewhite;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    color: antiquewhite;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white; 
+    padding-bottom: 5px; 
+}
+
+input[type="checkbox"] {
+    margin-right: 18px;
+    transform: scale(1.5);
+}
+
+label {
+    flex-grow: 1;
+    margin-left: 18px;
+    font-size: x-large;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
+}
+
